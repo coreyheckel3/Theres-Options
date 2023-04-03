@@ -1,0 +1,51 @@
+.performersContainer {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 10px;
+	justify-content: space-around;
+}
+
+.performer {
+	height: 300px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0px 0px 4px 4px rgba(0, 135, 60, 0.5);
+	border-radius: 24px;
+	background-color: white;
+	transition: 450ms;
+}
+
+.performer:hover{
+	transform: scale(1.05) translate(0, -5px);
+}
+
+
+.performerText{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Inter', sans-serif;
+	text-align: center;
+	font-size: 18px;
+	color: #414141;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.positive {
+	color: #00873c;
+}
+
+.negative {
+	color: #aa1508;
+}
+
+.positiveBox{
+	box-shadow: 0px 0px 4px 4px rgba(0, 135, 60, 0.5);
+}
+
+.negativeBox{
+	box-shadow: 0px 0px 4px 4px rgba(135, 0, 7, 0.5);
+}
